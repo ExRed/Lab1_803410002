@@ -20,8 +20,8 @@ dtbind <- cbind(speed,occupancy,volume)
 print(is.matrix(dtbind))
 
 #create data frame from the variable that you have created above, store to a new variable, called  "dtfrm" 
-dtfrm <- dtbind
-print(dtfrm)
+dtfrm <- data.frame(dtbind)
+print(dtfrm)#data.frame
 
 #read dataset use read.table() 
 dtfrm1 <- read.table("traffic-data.csv")
