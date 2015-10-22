@@ -3,7 +3,7 @@
 
 
 #Use the read.table function to import data from that file in a variable called DeepSea.
-setwd("D:\\Dropbox\\CCU\\2014-_PhD\\R Programming\\Lab1_803410002")
+setwd("D:\\Dropbox\\CCU\\2014-_PhD\\R Programming\\Lab1_803410002\\Lab3")
 DeepSea  <- read.table(file="ISIT.txt", header=TRUE)
 
 #Use the names, str, dim, head functions to check the correctness of DeepSea.
