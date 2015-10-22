@@ -71,5 +71,14 @@ root <- xmlRoot(data)
 xmlRoot(data)[1:2]
 
 #6.# To extract the XML-values from the document, use xmlSApply save into variable plantcat <- :
+xml_data <- xmlToList(data)
 
 
+#Finally, get the data in a data-frame and have a look at the first rows and columns (plantcat_df <- data.frame() )
+plantcat_df <- data.frame(plantcat, row.names = NULL)
+
+
+
+print(plantcat_df[3])
+print(plantcat_df[4])
+print(plantcat_df[5])
